@@ -1,0 +1,596 @@
+@import '../styles/fonts.css';
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  font-family: 'bananas' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-events:before {
+  content: "\e901";
+  color: #ffed00;
+}
+.icon-festivals:before {
+  content: "\e902";
+  color: #ffed00;
+}
+.icon-foodtruck:before {
+  content: "\e903";
+  color: #ffed00;
+}
+.icon-hospitality:before {
+  content: "\e904";
+  color: #ffed00;
+}
+.icon-instoreactivation:before {
+  content: "\e905";
+  color: #ffed00;
+}
+.icon-merchandising:before {
+  content: "\e906";
+  color: #ffed00;
+}
+.icon-mia:before {
+  content: "\e907";
+  color: #ffed00;
+}
+.icon-ontraid:before {
+  content: "\e908";
+  color: #ffed00;
+}
+.icon-photo-activation:before {
+  content: "\e909";
+  color: #ffed00;
+}
+.icon-plus:before {
+  content: "\e90a";
+  color: #ffed00;
+}
+.icon-popup:before {
+  content: "\e90b";
+  color: #ffed00;
+}
+.icon-sampling:before {
+  content: "\e90c";
+  color: #ffed00;
+}
+a,
+a:hover,
+.header__nav-button-space__promo:before,
+.header,
+.services-items__column__item {
+  transition: all 0.5s ease-in-out !important;
+}
+body {
+  background: #E5E5E5;
+  cursor: default;
+  overflow-x: hidden !important;
+}
+a {
+  cursor: pointer;
+}
+p {
+  font: 16px 'Intro Bold';
+}
+.container {
+  position: relative;
+  margin: 0 auto !important;
+  width: 1366px !important;
+}
+.button {
+  display: inline-block;
+}
+body *::-moz-selection {
+  background: #FFED00;
+  color: #2d2a26;
+}
+body *::-webkit-selection {
+  background: #FFED00;
+  color: #2d2a26;
+}
+body *::selection {
+  background: #FFED00;
+  color: #2d2a26;
+}
+.title-block {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  font: 56px 'Intro Black';
+  font-weight: bold;
+  font-style: italic;
+  color: #2d2a26;
+  text-transform: uppercase;
+  background: url('../img/decoration.png') no-repeat left;
+}
+.description-block {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 754px;
+  font: 16px 'Graphik';
+  line-height: 30px;
+  color: #2d2a26;
+}
+.header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 13;
+}
+.header_fixed {
+  position: fixed;
+  top: 0;
+  background: #2d2a26;
+}
+.header_absolute {
+  position: fixed;
+  top: 0;
+  background: #2d2a26;
+}
+.logo {
+  position: absolute;
+  margin-top: 76px;
+  margin-left: 48px;
+  width: 50px;
+  z-index: 14;
+}
+.logo img {
+  display: block;
+  width: 46px;
+  height: 57px;
+}
+.header__logo-to-scroll {
+  margin-top: 12px !important;
+}
+.header__logo-space {
+  float: left;
+  width: 110px;
+  height: 80px;
+}
+.header__nav-button-space {
+  float: left;
+  width: 1256px;
+}
+.header__nav-space {
+  margin-left: 110px;
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  z-index: 19;
+  background: #2d2a26;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 2.5% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 2.5% 100%);
+}
+.header__nav {
+  float: right;
+  width: 800px;
+  height: 80px;
+}
+.header__nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 80px;
+}
+.header__nav ul li a,
+.header__nav ul li a:hover {
+  padding: 0 47px 0 43px;
+  margin-right: -48px;
+  display: block;
+  float: left;
+  height: 80px;
+  font: 14px 'Intro';
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  line-height: 80px;
+  -webkit-clip-path: polygon(0 0, 60% 0, 100% 100%, 40% 100%);
+  clip-path: polygon(0 0, 60% 0, 100% 100%, 40% 100%);
+}
+.header__nav ul li a:hover,
+.header__nav ul li a:hover:hover {
+  color: #FFED00;
+}
+.nav-active {
+  -webkit-clip-path: polygon(0 0, 60% 0, 100% 100%, 40% 100%);
+  clip-path: polygon(0 0, 60% 0, 100% 100%, 40% 100%);
+  color: #2d2a26 !important;
+  background: #FFED00;
+  font-weight: bold !important;
+}
+.header__nav-button-space__promo {
+  margin-top: 16px;
+  float: right;
+  width: 192px;
+  height: 46px;
+  background: #FFED00;
+  -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+}
+.header__nav-button-space__promo:before {
+  position: absolute;
+  margin: 1px 1px 1px 1px;
+  display: block;
+  width: 190px;
+  height: 44px;
+  background: #2d2a26;
+  content: "Promo portal";
+  -webkit-clip-path: polygon(0.5% 0, 85% 0, 99.5% 100%, 15% 100%);
+  clip-path: polygon(0.5% 0, 85% 0, 99.5% 100%, 15% 100%);
+  font: 14px 'Intro';
+  color: #FFED00;
+  text-align: center;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+.header__nav-button-space__promo:hover:before {
+  color: #2d2a26;
+  background: #FFED00;
+}
+.main-slider {
+  width: 100%;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  background: #000 url('../img/slide-1.png') no-repeat center;
+  background-size: cover;
+}
+.main-slider__container {
+  width: 1366px;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+.main-slider__container li {
+  width: 100%;
+}
+.main-slider__container li img {
+  margin: 0 auto;
+  margin-top: -200px;
+  display: block;
+}
+.main-slider__container__mask {
+  margin: 290px 0 0 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+}
+.main-slider__container__mask h2 {
+  font: 64px 'Intro Bold';
+  line-height: 83px;
+  text-transform: uppercase;
+}
+.main-slider__container__mask p {
+  font: 18px 'Graphik';
+  line-height: 34px;
+}
+.scroll-down {
+  right: -23px;
+  height: 14px;
+  -webkit-transform: rotate(-90deg);
+  position: absolute;
+}
+.scroll-down__element p {
+  float: left;
+  font: 14px 'Intro';
+  line-height: 16px;
+  color: #fff;
+}
+.scroll-down__element span {
+  margin: 8px 13px 0 0;
+  float: left;
+  display: block;
+  width: 20px;
+  height: 1px;
+  background: #fff;
+}
+.scroll-down-container {
+  bottom: 0px;
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+.scroll-down_animated {
+  -webkit-animation: slide-left 0.5s steps(35, end) 30 alternate both;
+  animation: slide-left 0.5s steps(35, end) 30 alternate both;
+}
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+  }
+}
+ul.rslides1_tabs {
+  position: absolute;
+  margin: -30px 0 0 0;
+  width: 170px;
+  height: 6px;
+  z-index: 11;
+  list-style: none;
+}
+ul.rslides1_tabs li {
+  margin-right: 10px;
+  float: left;
+  width: 45px;
+  height: 6px;
+  background: #6e6d6d;
+  -webkit-clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+}
+ul.rslides1_tabs li a,
+ul.rslides1_tabs li a:hover {
+  display: block;
+  width: 45px;
+  height: 6px;
+  background: 0;
+  text-indent: -999999px;
+  overflow: hidden;
+}
+ul.rslides1_tabs .rslides_here {
+  float: left;
+}
+ul.rslides1_tabs .rslides_here a,
+ul.rslides1_tabs .rslides_here a:hover {
+  display: block;
+  width: 45px;
+  height: 6px;
+  background: #FFED00;
+  text-indent: -999999px;
+  overflow: hidden;
+}
+.services {
+  padding-bottom: 60px;
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+}
+.service-middle {
+  text-align: center !important;
+}
+.services-items {
+  width: 1060px;
+  padding: 0 20px;
+  list-style: none;
+  margin: 0 auto;
+  height: auto;
+}
+.services-items__column {
+  display: block;
+  float: left;
+  width: 342px;
+}
+.services-items__column__item {
+  margin-left: 0px;
+  width: 342px;
+  height: 192px;
+  background: #2d2a26;
+  margin-bottom: 20px;
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
+  color: #fff;
+}
+.services-items__column__item_active {
+  background: #FFED00;
+  color: #2d2a26;
+}
+.services-items__column__item_active .services-items__content {
+  color: #2d2a26;
+}
+.services-items__column__item_active .services-items__content .icon:before {
+  color: #2d2a26 !important;
+}
+.services-items__column__item:hover {
+  background: #FFED00;
+  color: #2d2a26;
+}
+.services-items__column__item:hover .services-items__content {
+  color: #2d2a26;
+}
+.services-items__column__item:hover .services-items__content .icon:before {
+  color: #2d2a26 !important;
+}
+.services-items__content {
+  margin: 0px 0 0 0px;
+  width: 342px;
+  height: 192px;
+  overflow: hidden;
+}
+.services-items__content h4 {
+  position: absolute;
+  text-align: left;
+  margin: 20px 0 0 50px;
+  font: 16px 'Intro Black';
+  text-transform: uppercase;
+}
+.services-items__content h4 span {
+  padding-left: 20px;
+}
+.services-items__content p {
+  width: 170px;
+  margin: 0 0 0 114px;
+  text-align: left;
+  font: 11px 'Graphik';
+  line-height: 16px;
+}
+.services-items__content p span {
+  padding-left: 10px;
+}
+.services-items__content a,
+.services-items__content a:hover {
+  margin: 0px 0 0 104px;
+  display: block;
+  width: 200px;
+  height: 33px;
+  background: #2d2a26;
+  -webkit-clip-path: polygon(1% 1%, 91% 0, 100% 100%, 10% 100%);
+  clip-path: polygon(1% 1%, 91% 0, 100% 100%, 10% 100%);
+  font: 11px 'Intro';
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 33px;
+}
+.services-items__content a:hover,
+.services-items__content a:hover:hover {
+  text-decoration: underline;
+}
+.services-items__content .icon {
+  text-align: left !important;
+  margin: 64px 0 22px 150px;
+  font-size: 54.6px;
+}
+.services-items__content .icon-plus {
+  margin: 74px 0 0 130px;
+}
+.services-items__top {
+  margin-top: 96px;
+}
+.services-items__one {
+  margin-top: 96px;
+  margin-left: 130px;
+}
+.services-items__three {
+  margin-top: 96px;
+  margin-left: -30px;
+}
+.services-items__two {
+  margin-left: 110px;
+}
+.services-items__photo {
+  margin-left: 84px;
+}
+.services-items__sampling {
+  margin-left: 218px;
+}
+.services-items__festivals {
+  margin-left: 244px;
+}
+.services-items__popup {
+  margin-left: 354px;
+}
+.services-items__ontraid {
+  margin-left: 464px;
+}
+.services-items__column-hosp {
+  position: absolute;
+  margin: 310px 0 0 -94px;
+}
+.services-items__column-mia {
+  position: absolute;
+  margin: 520px 0 0 16px;
+}
+.more {
+  cursor: pointer;
+}
+.btn-close {
+  top: 33px;
+  right: 33px;
+  position: absolute;
+  display: block;
+  width: 55px;
+  height: 30px;
+  color: #2d2a26;
+  background: #2d2a26;
+  -webkit-clip-path: polygon(1% 1%, 71% 0, 100% 100%, 30% 100%);
+  clip-path: polygon(1% 1%, 71% 0, 100% 100%, 30% 100%);
+}
+.btn-close:hover {
+  background: #FFED00;
+  color: #FFED00;
+}
+.btn-close:hover .icon-plus:before {
+  color: #2d2a26;
+}
+.btn-close .icon-plus {
+  margin: 3px 0 0 18px;
+  transform: rotate(45deg);
+  width: 11px;
+  height: 11px;
+}
+.btn-close .icon-plus:before {
+  color: #fff;
+}
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
