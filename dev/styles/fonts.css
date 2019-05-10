@@ -251,3 +251,13 @@
   content: "\e901";
   color: #f47821;
 }
+
+@font-face {
+	font-family: 'Gilroy Black';
+	src: url('../fonts/Gilroy-Black.eot');
+	src: url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gilroy-Black.woff') format('woff'),
+	url('../fonts/Gilroy-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

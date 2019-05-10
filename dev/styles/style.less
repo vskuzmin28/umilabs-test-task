@@ -11,17 +11,35 @@
 
 // SETTINGS //
 
-h2, p {
+h1, h2, h3, p {
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 a {
   cursor: pointer;
+  color: @orange;
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
 }
 
 p {
-  font: 16px 'Intro Bold';
+  font-size: 16px;
+  line-height: 26px;
+  font-family: DIN Pro;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: DIN Pro;
+  letter-spacing: -0.02em;
+  font-weight: 400;
 }
 
 // animation
@@ -56,19 +74,76 @@ body {
 
 body *::-moz-selection {
   //background: @yellow;
-  color: @dark;
+  //color: @dark;
 }
 
 body *::-webkit-selection {
   //background: @yellow;
-  color: @dark;
+  //color: @dark;
 }
 
 body *::selection {
   //background: @yellow;
-  color: @dark;
+  //color: @dark;
 }
 
+.button-worksheet {
+  margin: 0;
+  position: relative;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &:hover {
+    .button-worksheet__icon {
+      width: 210px;
+      padding-left: 20px;
+      border-radius: 111px;
+      justify-content: flex-start;
+    }
+  }
+
+  &__icon {
+    transition: all 0.5s ease-in-out;
+    width: 34px;
+    height: 54px;
+    font-size: 14px;
+    position: absolute;
+    border-radius: 111px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    background: rgba(135,135, 135, 0.05);
+  }
+
+  &__title {
+    margin: 0 0 0 46px;
+    position: absolute;
+    font-family: 'Gilroy Black';
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: @black-dark;
+  }
+
+}
+
+@media only screen and (min-width : 0) and (max-width : @mobile) {
+
+  h1 {
+    font-size: 28px !important;
+    line-height: 32px !important;
+  }
+  
+  p {
+    font-size: 14px !important;
+  }
+
+}
 
 @media only screen and (min-width : @mobile) and (max-width : @desktop) {
 
