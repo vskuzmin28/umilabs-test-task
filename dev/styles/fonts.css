@@ -1,307 +1,222 @@
 @import '../styles/helpers/variables.less';
 
 @font-face {
-  font-family: 'bananas';
-  src:  url('../fonts/bananas.eot?vzoioz');
-  src:  url('../fonts/bananas.eot?vzoioz#iefix') format('embedded-opentype'),
-    url('../fonts/bananas.ttf?vzoioz') format('truetype'),
-    url('../fonts/bananas.woff?vzoioz') format('woff'),
-    url('../fonts/bananas.svg?vzoioz#bananas') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Book Alt';
-	src: url('../fonts/Intro-Book-Alt.eot');
-	src: local('Intro Book Alt'), local('Intro-Book-Alt'),
-		url('../fonts/Intro-Book-Alt.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Book-Alt.woff') format('woff'),
-		url('../fonts/Intro-Book-Alt.ttf') format('truetype');
-	font-weight: normal;
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-Medium.eot');
+	src: local('../fonts/DIN Pro Medium'), local('../fonts/DINPro-Medium'),
+		url('../fonts/DINPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-Medium.woff') format('woff'),
+		url('../fonts/DINPro-Medium.ttf') format('truetype');
+	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro';
-	src: url('../fonts/Intro-Regular.eot');
-	src: local('Intro Regular'), local('Intro-Regular'),
-		url('../fonts/Intro-Regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Regular.woff') format('woff'),
-		url('../fonts/Intro-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Regular Caps';
-	src: url('../fonts/Intro-Regular-Caps.eot');
-	src: local('Intro Regular Caps'), local('Intro-Regular-Caps'),
-		url('../fonts/Intro-Regular-Caps.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Regular-Caps.woff') format('woff'),
-		url('../fonts/Intro-Regular-Caps.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Light Caps';
-	src: url('../fonts/Intro-Light-Caps.eot');
-	src: local('Intro Light Caps'), local('Intro-Light-Caps'),
-		url('../fonts/Intro-Light-Caps.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Light-Caps.woff') format('woff'),
-		url('../fonts/Intro-Light-Caps.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Black Inline Caps';
-	src: url('../fonts/Intro-Black-Inline-Caps.eot');
-	src: local('Intro Black Inline Caps'), local('Intro-Black-Inline-Caps'),
-		url('../fonts/Intro-Black-Inline-Caps.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Black-Inline-Caps.woff') format('woff'),
-		url('../fonts/Intro-Black-Inline-Caps.ttf') format('truetype');
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-BlackItalic.eot');
+	src: local('../fonts/DIN Pro Black Italic'), local('../fonts/DINPro-BlackItalic'),
+		url('../fonts/DINPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-BlackItalic.woff') format('woff'),
+		url('../fonts/DINPro-BlackItalic.ttf') format('truetype');
 	font-weight: 900;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Black Alt';
-	src: url('../fonts/Intro-Black-Alt.eot');
-	src: local('Intro Black Alt'), local('Intro-Black-Alt'),
-		url('Intro-Black-Alt.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Black-Alt.woff') format('woff'),
-		url('../fonts/Intro-Black-Alt.ttf') format('truetype');
-	font-weight: 900;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Bold';
-	src: url('../fonts/Intro-Bold-Italic.eot');
-	src: local('Intro Bold Italic'), local('Intro-Bold-Italic'),
-		url('../fonts/Intro-Bold-Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Bold-Italic.woff') format('woff'),
-		url('../fonts/Intro-Bold-Italic.ttf') format('truetype');
-	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Intro';
-	src: url('../fonts/Intro-Light.eot');
-	src: local('Intro Light'), local('Intro-Light'),
-		url('../fonts/Intro-Light.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Light.woff') format('woff'),
-		url('../fonts/Intro-Light.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Black Inline';
-	src: url('../fonts/Intro-Black-Inline.eot');
-	src: local('Intro Black Inline'), local('Intro-Black-Inline'),
-		url('../fonts/Intro-Black-Inline.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Black-Inline.woff') format('woff'),
-		url('../fonts/Intro-Black-Inline.ttf') format('truetype');
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedBlackItalic.eot');
+	src: local('../fonts/DIN Pro Condensed Black Italic'), local('../fonts/DINPro-CondensedBlackItalic'),
+		url('../fonts/DINPro-CondensedBlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedBlackItalic.woff') format('woff'),
+		url('../fonts/DINPro-CondensedBlackItalic.ttf') format('truetype');
 	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedMedium.eot');
+	src: local('../fonts/DIN Pro Condensed Medium'), local('../fonts/DINPro-CondensedMedium'),
+		url('../fonts/DINPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedMedium.woff') format('woff'),
+		url('../fonts/DINPro-CondensedMedium.ttf') format('truetype');
+	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro Thin Caps';
-	src: url('../fonts/Intro-Thin-Caps.eot');
-	src: local('Intro Thin Caps'), local('Intro-Thin-Caps'),
-		url('../fonts/Intro-Thin-Caps.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Thin-Caps.woff') format('woff'),
-		url('../fonts/Intro-Thin-Caps.ttf') format('truetype');
-	font-weight: 100;
-	font-style: normal;
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-MediumItalic.eot');
+	src: local('../fonts/DIN Pro Medium Italic'), local('../fonts/DINPro-MediumItalic'),
+		url('../fonts/DINPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-MediumItalic.woff') format('woff'),
+		url('../fonts/DINPro-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Intro Light Alt';
-	src: url('../fonts/Intro-Light-Alt.eot');
-	src: local('Intro Light Alt'), local('Intro-Light-Alt'),
-		url('../fonts/Intro-Light-Alt.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Light-Alt.woff') format('woff'),
-		url('../fonts/Intro-Light-Alt.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro';
-	src: url('../fonts/Intro-Bold.eot');
-	src: local('Intro Bold'), local('Intro-Bold'),
-		url('../fonts/Intro-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Bold.woff') format('woff'),
-		url('../fonts/Intro-Bold.ttf') format('truetype');
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-Bold.eot');
+	src: local('../fonts/DIN Pro Bold'), local('../fonts/DINPro-Bold'),
+		url('../fonts/DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-Bold.woff') format('woff'),
+		url('../fonts/DINPro-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro';
-	src: url('../fonts/Intro-Black.eot');
-	src: local('Intro Black'), local('Intro-Black'),
-		url('../fonts/Intro-Black.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Black.woff') format('woff'),
-		url('../fonts/Intro-Black.ttf') format('truetype');
-	font-weight: 900;
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-Light.eot');
+	src: local('../fonts/DIN Pro Light'), local('../fonts/DINPro-Light'),
+		url('../fonts/DINPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-Light.woff') format('woff'),
+		url('../fonts/DINPro-Light.ttf') format('truetype');
+	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro Book';
-	src: url('../fonts/Intro-Book-Italic.eot');
-	src: local('Intro Book Italic'), local('Intro-Book-Italic'),
-		url('../fonts/Intro-Book-Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Book-Italic.woff') format('woff'),
-		url('../fonts/Intro-Book-Italic.ttf') format('truetype');
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedMediumItalic.eot');
+	src: local('../fonts/DIN Pro Condensed Medium Italic'), local('../fonts/DINPro-CondensedMediumItalic'),
+		url('../fonts/DINPro-CondensedMediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedMediumItalic.woff') format('woff'),
+		url('../fonts/DINPro-CondensedMediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-Italic.eot');
+	src: local('../fonts/DIN Pro Italic'), local('../fonts/DINPro-Italic'),
+		url('../fonts/DINPro-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-Italic.woff') format('woff'),
+		url('../fonts/DINPro-Italic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Intro Black';
-	src: url('../fonts/Intro-Black-Italic.eot');
-	src: local('Intro Black Italic'), local('Intro-Black-Italic'),
-		url('../fonts/Intro-Black-Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Black-Italic.woff') format('woff'),
-		url('../fonts/Intro-Black-Italic.ttf') format('truetype');
-	font-weight: 900;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Intro Book';
-	src: url('../fonts/Intro-Book.eot');
-	src: local('Intro Book'), local('Intro-Book'),
-		url('../fonts/Intro-Book.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Book.woff') format('woff'),
-		url('../fonts/Intro-Book.ttf') format('truetype');
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro.eot');
+	src: local('../fonts/DIN Pro'), local('../fonts/DINPro'),
+		url('../fonts/DINPro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro.woff') format('woff'),
+		url('../fonts/DINPro.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro Thin Alt';
-	src: url('../fonts/Intro-Thin-Alt.eot');
-	src: local('Intro Thin Alt'), local('Intro-Thin-Alt'),
-		url('../fonts/Intro-Thin-Alt.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Thin-Alt.woff') format('woff'),
-		url('../fonts/Intro-Thin-Alt.ttf') format('truetype');
-	font-weight: 100;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Book Caps';
-	src: url('../fonts/Intro-Book-Caps.eot');
-	src: local('Intro Book Caps'), local('Intro-Book-Caps'),
-		url('../fonts/Intro-Book-Caps.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Book-Caps.woff') format('woff'),
-		url('../fonts/Intro-Book-Caps.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Black Caps';
-	src: url('../fonts/Intro-Black-Caps.eot');
-	src: local('Intro Black Caps'), local('Intro-Black-Caps'),
-		url('../fonts/Intro-Black-Caps.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Black-Caps.woff') format('woff'),
-		url('../fonts/Intro-Black-Caps.ttf') format('truetype');
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedBlack.eot');
+	src: local('../fonts/DIN Pro Condensed Black'), local('../fonts/DINPro-CondensedBlack'),
+		url('../fonts/DINPro-CondensedBlack.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedBlack.woff') format('woff'),
+		url('../fonts/DINPro-CondensedBlack.ttf') format('truetype');
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro Bold Caps';
-	src: url('../fonts/Intro-Bold-Caps.eot');
-	src: local('Intro Bold Caps'), local('Intro-Bold-Caps'),
-		url('../fonts/Intro-Bold-Caps.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Bold-Caps.woff') format('woff'),
-		url('../fonts/Intro-Bold-Caps.ttf') format('truetype');
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedBold.eot');
+	src: local('../fonts/DIN Pro Condensed Bold'), local('../fonts/DINPro-CondensedBold'),
+		url('../fonts/DINPro-CondensedBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedBold.woff') format('woff'),
+		url('../fonts/DINPro-CondensedBold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro Thin';
-	src: url('../fonts/Intro-Thin-Italic.eot');
-	src: local('Intro Thin Italic'), local('Intro-Thin-Italic'),
-		url('../fonts/Intro-Thin-Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Thin-Italic.woff') format('woff'),
-		url('../fonts/Intro-Thin-Italic.ttf') format('truetype');
-	font-weight: 100;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Intro';
-	src: url('../fontsIntro-Thin.eot');
-	src: local('Intro Thin'), local('Intro-Thin'),
-		url('../fontsIntro-Thin.eot?#iefix') format('embedded-opentype'),
-		url('../fontsIntro-Thin.woff') format('woff'),
-		url('../fontsIntro-Thin.ttf') format('truetype');
-	font-weight: 100;
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-Black.eot');
+	src: local('../fonts/DIN Pro Black'), local('../fonts/DINPro-Black'),
+		url('../fonts/DINPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-Black.woff') format('woff'),
+		url('../fonts/DINPro-Black.ttf') format('truetype');
+	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Intro Bold Alt';
-	src: url('../fontsIntro-Bold-Alt.eot');
-	src: local('Intro Bold Alt'), local('Intro-Bold-Alt'),
-		url('../fontsIntro-Bold-Alt.eot?#iefix') format('embedded-opentype'),
-		url('../fontsIntro-Bold-Alt.woff') format('woff'),
-		url('../fontsIntro-Bold-Alt.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Regular Alt';
-	src: url('../fontsIntro-Regular-Alt.eot');
-	src: local('Intro Regular Alt'), local('Intro-Regular-Alt'),
-		url('../fontsIntro-Regular-Alt.eot?#iefix') format('embedded-opentype'),
-		url('../fontsIntro-Regular-Alt.woff') format('woff'),
-		url('../fontsIntro-Regular-Alt.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Intro Light';
-	src: url('../fontsIntro-Light-Italic.eot');
-	src: local('Intro Light Italic'), local('Intro-Light-Italic'),
-		url('../fontsIntro-Light-Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fontsIntro-Light-Italic.woff') format('woff'),
-		url('../fontsIntro-Light-Italic.ttf') format('truetype');
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-LightItalic.eot');
+	src: local('../fonts/DIN Pro Light Italic'), local('../fonts/DINPro-LightItalic'),
+		url('../fonts/DINPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-LightItalic.woff') format('woff'),
+		url('../fonts/DINPro-LightItalic.ttf') format('truetype');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Intro Regular';
-	src: url('../fonts/Intro-Regular-Italic.eot');
-	src: local('Intro Regular Italic'), local('Intro-Regular-Italic'),
-		url('../fonts/Intro-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Intro-Regular-Italic.woff') format('woff'),
-		url('../fonts/Intro-Regular-Italic.ttf') format('truetype');
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedBoldItalic.eot');
+	src: local('../fonts/DIN Pro Condensed Bold Italic'), local('../fonts/DINPro-CondensedBoldItalic'),
+		url('../fonts/DINPro-CondensedBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedBoldItalic.woff') format('woff'),
+		url('../fonts/DINPro-CondensedBoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedRegular.eot');
+	src: local('../fonts/DIN Pro Condensed Regular'), local('../fonts/DINPro-CondensedRegular'),
+		url('../fonts/DINPro-CondensedRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedRegular.woff') format('woff'),
+		url('../fonts/DINPro-CondensedRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedItalic.eot');
+	src: local('../fonts/DIN Pro Condensed Italic'), local('../fonts/DINPro-CondensedItalic'),
+		url('../fonts/DINPro-CondensedItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedItalic.woff') format('woff'),
+		url('../fonts/DINPro-CondensedItalic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('../fonts/Graphik-Regular.woff2') format('woff2'),
-      url('../fonts/Graphik-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedLightItalic.eot');
+	src: local('../fonts/DIN Pro Condensed Light Italic'), local('../fonts/DINPro-CondensedLightItalic'),
+		url('../fonts/DINPro-CondensedLightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedLightItalic.woff') format('woff'),
+		url('../fonts/DINPro-CondensedLightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedLight.eot');
+	src: local('../fonts/DIN Pro Condensed Light'), local('../fonts/DINPro-CondensedLight'),
+		url('../fonts/DINPro-CondensedLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-CondensedLight.woff') format('woff'),
+		url('../fonts/DINPro-CondensedLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro-BoldItalic.eot');
+	src: local('../fonts/DIN Pro Bold Italic'), local('../fonts/DINPro-BoldItalic'),
+		url('../fonts/DINPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro-BoldItalic.woff') format('woff'),
+		url('../fonts/DINPro-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
 }
 
