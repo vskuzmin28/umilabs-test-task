@@ -90,6 +90,76 @@ body {
     font-size: 14px !important;
   }
 }
+.advantages {
+  width: 100%;
+  height: auto;
+}
+.advatages__background {
+  background: url('../img/background.png') center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+.advatages__bottom {
+  position: relative;
+  height: 446px;
+  background: #F7F5FA;
+  display: flex;
+  justify-content: center;
+}
+.advatages__items-body {
+  bottom: 80px;
+  position: absolute;
+  max-width: 972px;
+  background: #fff;
+}
+.items-body {
+  border: 1px solid #EDEDED;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.items-body__item {
+  width: 49.898%;
+  height: 182px;
+  padding-top: 50px;
+  background: #fff;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.items-body__item:nth-child(2) {
+  border-right: 0;
+}
+.items-body__item:nth-child(4) {
+  border-right: 0;
+}
+.items-body__item:nth-child(3),
+.items-body__item:nth-child(4) {
+  border-bottom: 0;
+}
+.items-body__title {
+  margin: 0 0 12px 60px;
+  font-family: DIN Pro;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #F47821;
+  font-weight: 600;
+}
+.items-body__desc {
+  padding-right: 30px;
+  margin: 12px 0 0 60px;
+  font-family: DIN Pro;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #222222;
+  font-weight: 400;
+}
 .readiness {
   padding: 165px 0 125px 0;
   height: auto;
@@ -112,6 +182,36 @@ body {
 .readiness__button {
   margin: 0 auto;
   width: 210px;
+}
+.similarity {
+  padding: 80px 0 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.similarity__container {
+  max-width: 730px;
+  padding: 0 20px;
+}
+.similarity__title {
+  margin-bottom: 24px;
+  font-family: DIN Pro;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+.similarity__desc {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4E4D53;
+  font-family: 'robotoregular';
+}
+.similarity__desc:last-child {
+  margin-bottom: 0;
 }
 /*
 LESS variables are information about icon's compiled state, stored under its original file name
