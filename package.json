@@ -1,7 +1,7 @@
 {
-  "name": "byggahusen",
+  "name": "landing",
   "version": "1.0",
-  "description": "landing page byggahusen",
+  "description": "test task",
   "main": "a",
   "dependencies": {
     "browser-sync": "^2.18.12",
