@@ -1,3 +1,5 @@
+@media only screen and (min-width : 0) {
+
 .about {
     padding: 90px 0 120px 0;
     width: 100%;
@@ -21,11 +23,13 @@
 .about__container {
     width: 100%;
     max-width: 574px;
+    margin: 0;
 }
 
 .about__form {
     margin-top: 60px;
     width: 100%;
+    padding: 0;
 }
 
 .about__form-item {
@@ -114,6 +118,41 @@
     &:hover {
         background: @orange;
         color: @white;
+    }
+
+}
+
+}
+
+@media only screen and (min-width : 0) and (max-width : @desktop) {
+
+    .about {
+        padding: 60px 0;
+    }
+
+    .about__form-item-title {
+        margin-bottom: 10px;
+    }
+
+    .about__title {
+        font-size: 24px;
+    }
+
+    .about__form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about__form-item {
+        margin-bottom: 20px;
+    }
+
+    .about__form-item-title {
+        font-size: 14px;
+    }
+
+    .about__form-item-input {
+        font-size: 16px;
     }
 
 }

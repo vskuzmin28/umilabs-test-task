@@ -1,3 +1,6 @@
+@media only screen and (min-width : 0) {
+
+
 .work-with-us {
     padding: 110px 0 160px 0;
     background: @grey;
@@ -68,4 +71,43 @@
     width: 24px;
     height: 2px;
     background: @orange;
+}
+
+}
+
+@media only screen and (min-width : 0) and (max-width : @desktop) {
+
+    .work-with-us__title {
+        font-size: 24px;
+        margin: 0 20px;
+        line-height: 32px;
+    }
+
+    .work-with-us {
+        padding: 60px 0;
+    }
+
+    .work-with-us__list {
+        padding: 0 40px;
+        flex-direction: column !important;
+    }
+
+    .work-with-us__item-line {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .work-with-us__item {
+        margin-right: 0;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .work-with-us__item-desc {
+        font-size: 14px;
+    }
+
 }
