@@ -183,6 +183,66 @@ body {
   margin: 0 auto;
   width: 210px;
 }
+.work-with-us {
+  padding: 110px 0 160px 0;
+  background: #F7F5FA;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.work-with-us__container {
+  max-width: 1200px;
+  width: 100%;
+}
+.work-with-us__title {
+  font-family: DIN Pro;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #161616;
+  font-weight: 400;
+}
+.work-with-us__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.work-with-us__item {
+  margin-right: 70px;
+}
+.work-with-us__item:last-child {
+  margin-right: 0;
+}
+.work-with-us__item-icon {
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+.work-with-us__item-title {
+  margin-bottom: 22px;
+  font-family: DIN Pro;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #161616;
+}
+.work-with-us__item-desc {
+  font-family: 'robotoregular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4E4D53;
+}
+.work-with-us__item-line {
+  margin-bottom: 27px;
+  width: 24px;
+  height: 2px;
+  background: #F47821;
+}
 .similarity {
   padding: 80px 0 100px 0;
   width: 100%;
@@ -198,6 +258,7 @@ body {
   margin-bottom: 24px;
   font-family: DIN Pro;
   font-size: 48px;
+  font-weight: 400;
   line-height: 60px;
   text-align: left;
   letter-spacing: -0.02em;
