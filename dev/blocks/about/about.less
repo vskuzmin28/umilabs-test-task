@@ -1,0 +1,119 @@
+.about {
+    padding: 90px 0 120px 0;
+    width: 100%;
+    background: @black;
+    display: flex;
+    justify-content: center;
+}
+
+.about__title {
+    margin: 0;
+    padding: 0;
+    font-family: DIN Pro;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: @white;
+}
+
+.about__container {
+    width: 100%;
+    max-width: 574px;
+}
+
+.about__form {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.about__form-item {
+    margin-bottom: 48px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(247, 245, 250, 0.1);
+    position: relative;
+
+    &:hover {
+        .about__form-item-title-number {
+            color: @white;
+            background: @orange;
+            border-color: @orange;
+        }
+    }
+
+}
+
+.about__form-item-title-number {
+    transition: all 0.5s ease-in-out;
+    left: -91px;
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    font-family: 'robotoregular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: @orange;
+    background: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__form-item-title {
+    padding-top: 18px;
+    margin-bottom: 24px;
+    font-family: DIN Pro;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: @white;
+}
+
+.about__form-item-input {
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 35px;
+    background: 0;
+    border: 0;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'robotoregular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    resize: none;
+}
+
+.about__form-button {
+    margin-top: 12px;
+    transition: all 0.5s ease-in-out;
+    background: @white;
+    width: 100%;
+    height: 54px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 111px;
+    font-family: 'Gilroy Black';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: @orange;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+        background: @orange;
+        color: @white;
+    }
+
+}
