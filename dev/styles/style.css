@@ -199,6 +199,9 @@ body {
   }
 }
 @media only screen and (min-width: 0) and (max-width: 1200px) {
+  .about__form-item-title-number {
+    display: none;
+  }
   .about {
     padding: 60px 0;
   }
@@ -368,6 +371,50 @@ body {
   width: 210px;
 }
 @media only screen and (min-width: 0) {
+  .similarity {
+    padding: 80px 0 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+  }
+  .similarity__container {
+    max-width: 730px;
+    padding: 0 20px;
+  }
+  .similarity__title {
+    margin-bottom: 24px;
+    font-family: DIN Pro;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+  .similarity__desc {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4D53;
+    font-family: 'robotoregular';
+  }
+  .similarity__desc:last-child {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 0) and (max-width: 1200px) {
+  .similarity {
+    padding: 60px 0;
+  }
+  .similarity__title {
+    font-size: 24px;
+  }
+  .similarity__desc {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 0) {
   .work-with-us {
     padding: 110px 0 160px 0;
     background: #F7F5FA;
@@ -458,50 +505,6 @@ body {
   }
   .work-with-us__item-desc {
     font-size: 14px;
-  }
-}
-@media only screen and (min-width: 0) {
-  .similarity {
-    padding: 80px 0 100px 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background: #fff;
-  }
-  .similarity__container {
-    max-width: 730px;
-    padding: 0 20px;
-  }
-  .similarity__title {
-    margin-bottom: 24px;
-    font-family: DIN Pro;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 60px;
-    text-align: left;
-    letter-spacing: -0.02em;
-    color: #222222;
-  }
-  .similarity__desc {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 26px;
-    color: #4E4D53;
-    font-family: 'robotoregular';
-  }
-  .similarity__desc:last-child {
-    margin-bottom: 0;
-  }
-}
-@media only screen and (min-width: 0) and (max-width: 1200px) {
-  .similarity {
-    padding: 60px 0;
-  }
-  .similarity__title {
-    font-size: 24px;
-  }
-  .similarity__desc {
-    font-size: 16px;
   }
 }
 /*
